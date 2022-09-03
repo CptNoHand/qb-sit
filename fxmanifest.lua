@@ -10,7 +10,16 @@ server_scripts {
 client_scripts {
 	'config.lua',
 	'lists/seat.lua',
+        'lists/sitpoints.lua'
 	'client.lua'
+}
+
+ui_page 'html/sit.html'
+
+files {
+	'html/*.html',
+	'html/*.js',
+	'html/*.css',
 }
 
 dependencies { 
